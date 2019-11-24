@@ -1,0 +1,25 @@
+.o-section-title{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    color: #34495e;
+    font-weight: 900;
+    position: relative;
+    
+}
+.o-section-title::after{
+    content: "";
+    width: 10rem;
+    height: .5rem;
+    background-color: #27ae60;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+

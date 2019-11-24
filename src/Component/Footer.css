@@ -1,0 +1,16 @@
+.o-link-footer-copy{
+    
+    color: #002d02;
+}
+.o-link-footer-copy:hover{
+    text-decoration: none;
+    color: #015a05;
+}
+.o-link-footer{
+    
+    color: #272626;
+}
+.o-link-footer:hover{
+    text-decoration: none;
+    color: #949292;
+}
